@@ -1,0 +1,24 @@
+#custom_post_types_container .custom_post_type_item {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 4px;
+  margin-bottom: 16px;
+}
+
+#custom_post_types_container .remove_post_type {
+  background-color: crimson;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#add_new_post_type {
+  margin-top: 10px;
+  background-color: #0073aa;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
